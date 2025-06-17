@@ -1,0 +1,1 @@
+select ORDER_ID,CUSTOMER_ID,ORDER_DATE,TOTAL_AMOUNT from {{ source('raw_pizza_data', 'orders') }}

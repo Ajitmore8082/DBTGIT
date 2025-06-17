@@ -1,0 +1,1 @@
+select * from {{ source('raw_pizza_data', 'order_items') }}
