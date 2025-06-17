@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw_pizza_data
+    database: EDW_DEV_DB
+    schema: RAW_PIZZA_DATA
+    tables:
+      - name: CUSTOMERS
+      - name: pizzas
+      - name: orders
+      - name: order_items

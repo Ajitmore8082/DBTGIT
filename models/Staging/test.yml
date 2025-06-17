@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: Stg_customers
+    columns:
+      - name: CUSTOMER_ID
+        tests:
+          - not_null
+          - unique
+  - name: Stg_order_items
+    columns:
+      - name: ORDER_ITEM_ID
+        tests:
+          - not_null
+          - unique
